@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.4;
+  font-family: sans-serif;
+}
+
+.container {
+  margin: 60px 0;
+  border: 5px solid black;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  text-align: center;
+  background-color: #f7f7f7;
+  text-transform: uppercase;
+  padding: 20px;
+  position: relative;
+}
+
+.shoe-img {
+  width: 250px;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.shipping {
+  color: #515151;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.link {
+  color: black;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+
+.link:hover {
+  text-decoration: none;
+}
+
+.btn-add-cart {
+  color: white;
+  background-color: black;
+  font-weight: bold;
+  border: none;
+  padding: 15px 10px;
+  text-transform: uppercase;
+  font-size: 20px;
+  cursor: pointer;
+  width: 100%;
+  border-top: 5px solid black;
+}
+
+.links {
+  list-style: square;
+  margin-left: 18px;
+}
+
+.links li {
+  margin-bottom: 10px;
+}
+
+.btn-add-cart:hover {
+  background-color: white;
+  color: black;
+}
+
+.btn-sale {
+  background-color: rgb(224, 9, 9);
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 10px 15px;
+  position: absolute;
+  top: -20px;
+  left: -35px;
+  letter-spacing: 1px;
+}
+
+.colors {
+  display: flex;
+  gap: 10px;
+  /* margin-top: 30px; */
+}
+
+.black {
+  width: 22px;
+  height: 22px;
+  background-color: #000;
+}
+
+.skyblue {
+  width: 22px;
+  height: 22px;
+  background-color: skyblue;
+}
+
+.red {
+  width: 22px;
+  height: 22px;
+  background-color: red;
+}
+
+.yellow {
+  width: 22px;
+  height: 22px;
+
+  background-color: yellow;
+}
+
+.lightgreen {
+  width: 22px;
+  height: 22px;
+  background-color: lightgreen;
+}
+
+.lightbrown {
+  width: 22px;
+  height: 22px;
+  background-color: lightsalmon;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.price-shipping {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.product-price {
+  flex: 1;
+}
+
+.product-details {
+  flex: 1;
+}
